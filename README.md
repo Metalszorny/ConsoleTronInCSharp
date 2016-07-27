@@ -1,4 +1,4 @@
-# ConsoleTronInCSharp
+# ConsoleTronInVisualCSharp
 =====================
 
 
@@ -9,7 +9,7 @@ A console character based tron game with two players and option settings.
 
 Used languages:
 ---------------
-- C#
+- Visual C#
 
 
 Features:
