@@ -117,6 +117,12 @@ namespace ConsoleTron
             this.Direction = direction;
             this.IsAlive = isalive;
         }
+		
+		/// <summary>
+        /// Destroys the instance of the <see cref="Tron"/> class.
+        /// </summary>
+        ~Tron()
+        { }
 
         #endregion Constructors
 

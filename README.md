@@ -1,5 +1,4 @@
 # ConsoleTronInVisualCSharp
-=====================
 
 
 About:
@@ -15,7 +14,7 @@ Used languages:
 Features:
 ---------
 - Console
-- class & struct
+- Character based menu
 
 
 Envitoment:

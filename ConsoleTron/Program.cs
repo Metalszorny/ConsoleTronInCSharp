@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleTron
 {
+	/// <summary>
+    /// The interaction logic for the program.
+    /// </summary>
     class Program
     {
         #region Fields
@@ -773,6 +776,7 @@ namespace ConsoleTron
                 Console.Write("Color: ");
                 Console.BackgroundColor = ConsoleColor.Gray;
                 Console.ForegroundColor = ConsoleColor.Black;
+				
                 if (coloredMap)
                 {
                     Console.Write("On ");
@@ -781,11 +785,13 @@ namespace ConsoleTron
                 {
                     Console.Write("Off");
                 }
+				
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.WriteLine();
                 Console.WriteLine();
                 Console.Write("Difficulty: ");
+				
                 switch (gameDifficulty)
                 {
                     case GameDifficulties.Easy:
@@ -798,6 +804,7 @@ namespace ConsoleTron
                         Console.Write(" Hard ");
                         break;
                 }
+				
                 Console.WriteLine();
                 Console.WriteLine();
 
